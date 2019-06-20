@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.adefault.simak">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login2">
+        </activity>
+        <activity
+            android:name=".Bayar"
+            android:label="@string/title_activity_bayar"
+            android:parentActivityName=".HomeUser">
+            <meta-data
+                android:name="android.support.PARENT_Activity"
+                android:value=".HomeUser" />
+        </activity>
+        <activity android:name=".Signup" />
+        <activity android:name=".HomeUser" />
+        <activity android:name=".Jakarta">
+
+        </activity>
+        <activity android:name=".Tunggakan" />
+        <activity android:name=".Verifikasi" />
+        <activity android:name=".Lokasi" />
+        <activity android:name=".Pengumuman" />
+        <activity android:name=".Keluh" />
+        <activity android:name=".pembayaran" />
+    </application>
+
+</manifest>

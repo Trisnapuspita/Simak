@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SIMAK</string>
+    <string name="title">Sistem Informasi \n Pembayaran Kontrakan</string>
+    <string name="top">SIMAK</string>
+    <string name="login">MASUK</string>
+    <string name="signup">DAFTAR</string>
+    <string name="title_activity_bayar">Bayar</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_account">Profile</string>
+    <string name="title_activity_jakarta">Jakarta</string>
+    <string name="nama_user">
+        <br><br>Nama: Bambang</br></br>
+        <br><br>Tempat: Condet</br></br>
+        <br><br>Pintu: 2</br></br>
+        <br><br>Besar biaya: Rp. 9.000.000,-/Bulan</br></br>
+        <br>Status Pembayaran: Lunas Bulan April</br>
+    </string>
+    <string name="nama">Nama: Bambang</string>
+    <string name="tempat_user">Tempat: Condet</string>
+    <string name="pintu_user">Pintu: 2</string>
+    <string name="biaya_user">Besar Biaya: Rp. 9.000.000,-/Bulan</string>
+    <string name="status_user">Status Pembayaran: Lunas Bulan April</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>
