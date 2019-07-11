@@ -6,21 +6,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Login2 extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
     private Button button1;
     private Button button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login2);
+        setContentView(R.layout.activity_login);
         getSupportActionBar().setTitle("Login");
 
         Button button1 = (Button)findViewById(R.id.button1);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent lgn = new Intent(Login2.this, HomeUser.class);
+                Intent lgn = new Intent(LoginActivity.this, HomePemilikActivity.class);
                 startActivity(lgn);
             }
         });
@@ -29,7 +29,7 @@ public class Login2 extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent rgs = new Intent(Login2.this, Signup.class);
+                Intent rgs = new Intent(LoginActivity.this, SignupActivity.class);
                 startActivity(rgs);
             }
         });

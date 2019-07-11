@@ -6,14 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class pembayaran extends AppCompatActivity {
+public class PembayaranPemilikActivity extends AppCompatActivity {
 
     private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pembayaran);
+        setContentView(R.layout.activity_pembayaran_pemilik);
 
         button = (Button)findViewById(R.id.lokasi);
         button.setOnClickListener(new View.OnClickListener() {
@@ -38,15 +38,15 @@ public class pembayaran extends AppCompatActivity {
         });
     }
     public void openLokasi(){
-        Intent intent = new Intent(this, Lokasi.class);
+        Intent intent = new Intent(this, DaftarLokasiActivity.class);
         startActivity(intent);
     }
     public void openVerifikasi(){
-        Intent intent = new Intent(this, Verifikasi.class);
+        Intent intent = new Intent(this, VerifikasiPenyewaActivity.class);
         startActivity(intent);
     }
     public void openTunggakan(){
-        Intent intent = new Intent(this, Tunggakan.class);
+        Intent intent = new Intent(this, TunggakanPemilikActivity.class);
         startActivity(intent);
     }
 }

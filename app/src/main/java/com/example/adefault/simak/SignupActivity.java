@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Signup extends AppCompatActivity {
+public class SignupActivity extends AppCompatActivity {
     private Button button3;
 
     @Override
@@ -19,7 +19,7 @@ public class Signup extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int3 = new Intent(Signup.this, HomeUser.class);
+                Intent int3 = new Intent(SignupActivity.this, HomePemilikActivity.class);
                 startActivity(int3);
             }
         });

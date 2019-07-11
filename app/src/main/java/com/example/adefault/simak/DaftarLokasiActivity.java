@@ -4,17 +4,16 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
-public class Lokasi extends AppCompatActivity {
+public class DaftarLokasiActivity extends AppCompatActivity {
 
     private TextView text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lokasi);
+        setContentView(R.layout.activity_daftar_lokasi);
 
     text = (TextView)findViewById(R.id.jakarta);
     text.setOnClickListener(new View.OnClickListener() {
@@ -25,7 +24,7 @@ public class Lokasi extends AppCompatActivity {
     });
     }
     public void openJakarta(){
-        Intent intent = new Intent(this, Jakarta.class);
+        Intent intent = new Intent(this, EditLokasiActivity.class);
         startActivity(intent);
     }
 }

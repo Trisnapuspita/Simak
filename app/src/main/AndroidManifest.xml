@@ -15,27 +15,27 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Login2">
+        <activity android:name=".LoginActivity">
         </activity>
         <activity
-            android:name=".Bayar"
+            android:name=".StatusPenyewaActivity"
             android:label="@string/title_activity_bayar"
-            android:parentActivityName=".HomeUser">
+            android:parentActivityName=".HomePemilikActivity">
             <meta-data
                 android:name="android.support.PARENT_Activity"
                 android:value=".HomeUser" />
         </activity>
-        <activity android:name=".Signup" />
-        <activity android:name=".HomeUser" />
-        <activity android:name=".Jakarta">
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".HomePemilikActivity" />
+        <activity android:name=".EditLokasiActivity">
 
         </activity>
-        <activity android:name=".Tunggakan" />
-        <activity android:name=".Verifikasi" />
-        <activity android:name=".Lokasi" />
-        <activity android:name=".Pengumuman" />
-        <activity android:name=".Keluh" />
-        <activity android:name=".pembayaran" />
+        <activity android:name=".TunggakanPemilikActivity" />
+        <activity android:name=".VerifikasiPenyewaActivity" />
+        <activity android:name=".DaftarLokasiActivity" />
+        <activity android:name=".PengumumanPemilikActivity" />
+        <activity android:name=".KeluhanPemilikActivity" />
+        <activity android:name=".PembayaranPemilikActivity" />
     </application>
 
 </manifest>

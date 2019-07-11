@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class Bayar extends AppCompatActivity {
+public class StatusPenyewaActivity extends AppCompatActivity {
 
     private TextView mTextMessage;
 
@@ -22,7 +22,7 @@ public class Bayar extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bayar);
+        setContentView(R.layout.activity_status_penyewa);
         getSupportActionBar().setTitle("Beranda");
 
         mTextMessage = (TextView) findViewById(R.id.message);

@@ -6,19 +6,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class HomeUser extends AppCompatActivity {
+public class HomePemilikActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_user);
+        setContentView(R.layout.activity_home_pemilik);
         getSupportActionBar().setTitle("Home");
 
         Button Bayar = (Button)findViewById(R.id.btnBayar);
         Bayar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int1 = new Intent(HomeUser.this, pembayaran.class);
+                Intent int1 = new Intent(HomePemilikActivity.this, PembayaranPemilikActivity.class);
                 startActivity(int1);
             }
         });
@@ -27,7 +27,7 @@ public class HomeUser extends AppCompatActivity {
         Keluhan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int2 = new Intent(HomeUser.this, Keluh.class);
+                Intent int2 = new Intent(HomePemilikActivity.this, KeluhanPemilikActivity.class);
                 startActivity(int2);
             }
         });
@@ -36,7 +36,7 @@ public class HomeUser extends AppCompatActivity {
         Pengumuman.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int3 = new Intent(HomeUser.this, Pengumuman.class);
+                Intent int3 = new Intent(HomePemilikActivity.this, PengumumanPemilikActivity.class);
                 startActivity(int3);
             }
         });

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="30dp"
               android:backgroundTint="@color/background"
-    tools:context=".Login2">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:layout_width="match_parent"
