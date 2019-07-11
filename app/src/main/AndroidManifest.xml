@@ -9,9 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ProfilPenyewaActivity">
+        </activity>
+        <activity
+            android:name=".ProfilPemilikActivity"
+            android:label="@string/title_activity_profil_pemilik"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
@@ -23,19 +31,18 @@
             android:parentActivityName=".HomePemilikActivity">
             <meta-data
                 android:name="android.support.PARENT_Activity"
-                android:value=".HomeUser" />
+                android:value=".HomeUser"/>
         </activity>
-        <activity android:name=".SignupActivity" />
-        <activity android:name=".HomePemilikActivity" />
+        <activity android:name=".SignupActivity"/>
+        <activity android:name=".HomePemilikActivity"/>
         <activity android:name=".EditLokasiActivity">
-
         </activity>
-        <activity android:name=".TunggakanPemilikActivity" />
-        <activity android:name=".VerifikasiPenyewaActivity" />
-        <activity android:name=".DaftarLokasiActivity" />
-        <activity android:name=".PengumumanPemilikActivity" />
-        <activity android:name=".KeluhanPemilikActivity" />
-        <activity android:name=".PembayaranPemilikActivity" />
+        <activity android:name=".TunggakanPemilikActivity"/>
+        <activity android:name=".VerifikasiPenyewaActivity"/>
+        <activity android:name=".DaftarLokasiActivity"/>
+        <activity android:name=".PengumumanPemilikActivity"/>
+        <activity android:name=".KeluhanPemilikActivity"/>
+        <activity android:name=".PembayaranPemilikActivity"/>
     </application>
 
 </manifest>
