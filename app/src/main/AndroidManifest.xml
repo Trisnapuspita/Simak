@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PembuatanPenggunaDariPemilikActivity"></activity>
-        <activity android:name=".JumlahTunggakanActivity" />
+        <activity android:name=".PengumumanPenyewaActivity"></activity>
+        <activity android:name=".PembuatanPenggunaDariPemilikActivity" />
+        <activity
+            android:name=".JumlahTunggakanActivity"
+            android:parentActivityName=".TunggakanPemilikActivity" />
         <activity android:name=".DaftarVerifikasiPemilikActivity" />
         <activity android:name=".ProfilPenyewaActivity" />
         <activity
@@ -36,7 +39,9 @@
         <activity android:name=".SignupActivity" />
         <activity android:name=".HomePemilikActivity" />
         <activity android:name=".EditLokasiActivity" />
-        <activity android:name=".TunggakanPemilikActivity" />
+        <activity
+            android:name=".TunggakanPemilikActivity"
+            android:parentActivityName=".PembayaranPemilikActivity" />
         <activity android:name=".VerifikasiPenyewaActivity" />
         <activity android:name=".DaftarLokasiActivity" />
         <activity android:name=".PengumumanPemilikActivity" />

@@ -7,10 +7,10 @@
     tools:context=".VerifikasiPenyewaActivity">
 
     <LinearLayout
+        android:padding="20dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
@@ -18,7 +18,38 @@
             android:text="LEMBAR VERIFIKASI"
             android:layout_gravity="center"
             android:textSize="20dp" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama : Dede Rosadi"
+            android:textSize="20dp" />
 
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat : Jakarta"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pintu : 1"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bukti Pembayaran : "
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="287dp"
+            android:layout_height="241dp"
+            android:src="@drawable/buktibayar" />
     </LinearLayout>
 
     <android.support.design.widget.BottomNavigationView

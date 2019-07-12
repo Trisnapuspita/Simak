@@ -9,5 +9,8 @@ public class PengumumanPemilikActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pengumuman_pemilik);
+
+        getSupportActionBar().setTitle("Pengumuman");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
