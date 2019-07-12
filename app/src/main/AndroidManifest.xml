@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.adefault.simak">
+    package="com.example.adefault.simak">
 
     <application
         android:allowBackup="true"
@@ -9,40 +9,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfilPenyewaActivity">
-        </activity>
+        <activity android:name=".PembuatanPenggunaDariPemilikActivity"></activity>
+        <activity android:name=".JumlahTunggakanActivity" />
+        <activity android:name=".DaftarVerifikasiPemilikActivity" />
+        <activity android:name=".ProfilPenyewaActivity" />
         <activity
             android:name=".ProfilPemilikActivity"
             android:label="@string/title_activity_profil_pemilik"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SplashActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity">
-        </activity>
+        <activity android:name=".LoginActivity" />
         <activity
             android:name=".StatusPenyewaActivity"
             android:label="@string/title_activity_bayar"
             android:parentActivityName=".HomePemilikActivity">
             <meta-data
                 android:name="android.support.PARENT_Activity"
-                android:value=".HomeUser"/>
+                android:value=".HomeUser" />
         </activity>
-        <activity android:name=".SignupActivity"/>
-        <activity android:name=".HomePemilikActivity"/>
-        <activity android:name=".EditLokasiActivity">
-        </activity>
-        <activity android:name=".TunggakanPemilikActivity"/>
-        <activity android:name=".VerifikasiPenyewaActivity"/>
-        <activity android:name=".DaftarLokasiActivity"/>
-        <activity android:name=".PengumumanPemilikActivity"/>
-        <activity android:name=".KeluhanPemilikActivity"/>
-        <activity android:name=".PembayaranPemilikActivity"/>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".HomePemilikActivity" />
+        <activity android:name=".EditLokasiActivity" />
+        <activity android:name=".TunggakanPemilikActivity" />
+        <activity android:name=".VerifikasiPenyewaActivity" />
+        <activity android:name=".DaftarLokasiActivity" />
+        <activity android:name=".PengumumanPemilikActivity" />
+        <activity android:name=".KeluhanPemilikActivity" />
+        <activity android:name=".PembayaranPemilikActivity" />
     </application>
 
 </manifest>
